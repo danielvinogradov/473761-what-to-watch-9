@@ -1,7 +1,8 @@
+
 # Личный проект «Что посмотреть»
 
 * Студент: [Daniel Vinogradov](https://up.htmlacademy.ru/react/9/user/473761).
-* Наставник: `Неизвестно`.
+* Наставник: [Глеб Клецков](https://htmlacademy.ru/profile/id1487865).
 
 ---
 
