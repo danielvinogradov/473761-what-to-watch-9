@@ -1,4 +1,4 @@
-import {FilmCardData} from '../../types/FilmCardData';
+import {FilmCardData} from '../film-card/FilmCardData';
 
 /**
  * Выносим моковые данные о фильмах в отдельный файл для повышения читаемости.

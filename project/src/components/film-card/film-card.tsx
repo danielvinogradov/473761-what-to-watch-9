@@ -1,7 +1,7 @@
 /**
  * Карточка фильма.
  */
-import {FilmCardData} from '../../types/FilmCardData';
+import {FilmCardData} from './FilmCardData';
 
 function FilmCard({coverImgSrc, title}: FilmCardData): JSX.Element {
   return (
