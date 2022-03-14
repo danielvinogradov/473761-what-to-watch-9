@@ -4,8 +4,9 @@
 import {filmsDataMock} from './films-data.mock';
 import FilmCard from '../film-card/film-card';
 import PromoFilmCard from '../promo-film-card/promo-film-card';
+import {PromoFilmCardData} from '../promo-film-card/PromoFilmCardData';
 
-function HomePage(): JSX.Element {
+function HomePage(promoFilmData: PromoFilmCardData): JSX.Element {
 
   return (
     <>
@@ -38,12 +39,7 @@ function HomePage(): JSX.Element {
         </header>
 
         {/*Промо фильм*/}
-        <PromoFilmCard
-          title="The Grand Budapest Hotel"
-          genre="Drama"
-          year={2014}
-          posterImgSrc="img/the-grand-budapest-hotel-poster.jpg"
-        />
+        <PromoFilmCard{...promoFilmData}/>
 
       </section>
       <div className="page-content">
