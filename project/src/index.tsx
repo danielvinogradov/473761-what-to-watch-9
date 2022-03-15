@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/app/app';
-import {PromoFilmCardData} from './components/promo-film-card/PromoFilmCardData';
+import {IPromoFilmCardData} from './components/promo-film-card/IPromoFilmCardData';
 
-const mockPromoFilmCardData = new PromoFilmCardData(
-  'The Grand Budapest Hotel',
-  'Drama',
-  2014,
-  'img/the-grand-budapest-hotel-poster.jpg',
-);
+const mockPromoFilmCardData: IPromoFilmCardData = {
+  title: 'The Grand Budapest Hotel',
+  genre: 'Drama',
+  year: 2014,
+  posterImgSrc: 'img/the-grand-budapest-hotel-poster.jpg',
+};
 
 ReactDOM.render(
   <React.StrictMode>

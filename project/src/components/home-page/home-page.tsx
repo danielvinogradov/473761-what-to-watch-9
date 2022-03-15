@@ -4,9 +4,9 @@
 import {filmsDataMock} from './films-data.mock';
 import FilmCard from '../film-card/film-card';
 import PromoFilmCard from '../promo-film-card/promo-film-card';
-import {PromoFilmCardData} from '../promo-film-card/PromoFilmCardData';
+import {IPromoFilmCardData} from '../promo-film-card/IPromoFilmCardData';
 
-function HomePage(promoFilmData: PromoFilmCardData): JSX.Element {
+function HomePage(promoFilmData: IPromoFilmCardData): JSX.Element {
 
   return (
     <>

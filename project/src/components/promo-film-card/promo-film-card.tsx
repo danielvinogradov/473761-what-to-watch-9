@@ -1,9 +1,9 @@
 /**
  * Промо-фильм в шапке страницы.
  */
-import {PromoFilmCardData} from './PromoFilmCardData';
+import {IPromoFilmCardData} from './IPromoFilmCardData';
 
-function PromoFilmCard({title, genre, year, posterImgSrc}: PromoFilmCardData) {
+function PromoFilmCard({title, genre, year, posterImgSrc}: IPromoFilmCardData) {
   return (
     <div className="film-card__wrap">
       <div className="film-card__info">

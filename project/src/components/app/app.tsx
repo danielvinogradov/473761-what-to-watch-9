@@ -1,7 +1,7 @@
 import HomePage from '../home-page/home-page';
-import {PromoFilmCardData} from '../promo-film-card/PromoFilmCardData';
+import {IPromoFilmCardData} from '../promo-film-card/IPromoFilmCardData';
 
-function App(promoFilmData: PromoFilmCardData): JSX.Element {
+function App(promoFilmData: IPromoFilmCardData): JSX.Element {
   return <HomePage {...promoFilmData}/>;
 }
 
