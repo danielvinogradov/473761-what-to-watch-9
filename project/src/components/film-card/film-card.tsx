@@ -1,9 +1,9 @@
 /**
  * Карточка фильма.
  */
-import {FilmCardData} from './FilmCardData';
+import {IFilmCardData} from './IFilmCardData';
 
-function FilmCard({coverImgSrc, title}: FilmCardData): JSX.Element {
+function FilmCard({coverImgSrc, title}: IFilmCardData): JSX.Element {
   return (
     <article className="small-film-card catalog__films-card">
       <div className="small-film-card__image">
